@@ -18,8 +18,8 @@ async def ping(ctx):
     await ctx.send('pong')
     
 @bot.command()
-async def mewtwo(ctx):
-    await ctx.send('mew')
+async def peng(ctx):
+    await ctx.send('pang')
 
 
 
