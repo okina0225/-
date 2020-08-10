@@ -17,7 +17,8 @@ async def on_command_error(ctx, error):
 async def ping(ctx):
     await ctx.send('pong')
     
-@client.event
+
+@bot.command()
 async def on_message(message):
     # メッセージ送信者がBotだった場合は無視する
     if message.author.bot:
